@@ -1,0 +1,50 @@
+html { 
+  background: url(pexels-johannes-plenio-1103970.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+#left {position: absolute;
+top: 0.7cm;
+left: 1cm;}
+#right {position: absolute;
+top: 0.7cm;
+right: 1cm;}
+.box{
+  border-radius: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 16px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.about {
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+p::first-letter {
+  font-size: 2em;
+}

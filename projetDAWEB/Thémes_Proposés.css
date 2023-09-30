@@ -1,0 +1,51 @@
+html { 
+  background: url(pexels-johannes-plenio-1103970.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+.box{
+  border-radius: 40px;
+}
+#left {
+position: absolute;
+top: 0.7cm;
+left: 1cm;
+}
+#right {
+position: absolute;
+top: 0.7cm;
+right: 1cm;
+}
+.main {
+	border-radius: 25px;
+	background-color:rgba(255, 255, 255, 0.5);
+	padding:30px;
+	text-align:center;
+}
+.container {
+	display: flex; /* Use flexbox to align columns vertically */
+	height: 50vh; /* Set height of container to fill entire viewport */
+	justify-content: space-between;
+}
+.column {
+	background-color:rgba(255, 255, 255, 0.5); /* Add background color to columns */
+	padding: 10px;
+	border-radius: 25px;
+	width: 23%;
+	margin: 0 1%;
+
+}
+p{
+	text-align: center;
+}
+h2{
+	font-style: italic;
+}
+button {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px grey solid;
+  border-radius: 10px;
+  color: #191970;
+
+}
